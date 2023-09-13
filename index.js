@@ -70,7 +70,7 @@ console.log(ArrNombresPizzasSeleccionadas);
 // Respuesta user friendly
 const RespuestaMenu = ArrNombresPizzasSeleccionadas.join(", ")
 
-console.log(`Las pizzas que le podemos ofreser son: $ ${RespuestaMenu}`)
+console.log(`Las pizzas que le podemos ofrecer son: ${RespuestaMenu}`)
 
 
 
