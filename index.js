@@ -69,7 +69,8 @@ console.log(ArrNombresPizzasSeleccionadas);
 
 // Respuesta user friendly
 const RespuestaMenu = ArrNombresPizzasSeleccionadas.join(", ")
-console.log("Las pizzas que le podemos ofrecer son: " + RespuestaMenu)
+
+console.log(`Las pizzas que le podemos ofreser son: $ ${RespuestaMenu}`)
 
 
 
@@ -101,3 +102,15 @@ pizzas.forEach ((pizza) => {
   console.log(`tipo de Pizza: ${pizza.nombre}, Precio: $${pizza.precio}`)
 
 })
+
+
+// Ejercicio D) 
+// cada pizza con sus ingredientes 
+
+
+pizzas.forEach((pizza) => {
+
+  console.log(`Pizza del menu: ${pizza.nombre}, sus ingredientes son: ${pizza.ingredientes}`)
+  
+})
+
